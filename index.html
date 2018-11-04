@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    
+    <link rel="stylesheet" type="text/css" href="node_modules\bootstrap\dist\css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="node_modules\font-awesome\css\font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    
+    <script src="node_modules\bootstrap\dist\js\bootstrap.js"></script>
+    <script src="node_modules\jquery\dist\jquery.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="list-group">
+            <a href="index.html" class="list-group-item disabled active">Edit Profile</a>
+            <a href="index1.html" class="list-group-item disabled ">Change Password</a>
+        </div>
+        <div class="edit-group">
+            <div class="container_edit">
+                <h2><span class="text">EDIT PROFILE</span></h2>
+                <div class="imgAvt">
+                    <label class="imgAvt1">
+                        <img src="Img\meo.jpg" class="rounded-circle">
+                        <div class="camera-hover">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                        </div>
+                    </label>
+                </div>
+                <div class="edit_infor">
+                    <h5 class="cs-form-section-subheader">Public Profile</h5>
+                    <div class="form_info">
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupUserName">User Name</label>
+                            <input type="text" id="formGroupUserName" placeholder="username" class="form-control cs-form-control">
+                        </div>
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupFirstName">First Name</label>
+                            <input type="text" id="formGroupFirstName" placeholder="firstname" class="form-control cs-form-control">
+                        </div>
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupLastName">Last Name</label>
+                            <input type="text" id="formGroupLastName" placeholder="lastname" class="form-control cs-form-control">
+                        </div>
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupWebsite">Website</label>
+                            <input type="text" id="formGroupWebsite" placeholder="website" class="form-control cs-form-control">
+                        </div>
+                    </div>
+                    <hr>
+                    <h5 class="cs-form-section-subheader">Private Profile</h5>
+                    <div class="form_info">
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupEmail">Email</label>
+                            <input type="text" id="formGroupEmail" placeholder="Email" class="form-control cs-form-control">
+                        </div>
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupMobile No.">Mobile No.</label>
+                            <input type="text" id="formGroupMobile No." placeholder="Mobile No." class="form-control cs-form-control">
+                        </div>
+                        <div class="form-group cs-form-group ">
+                            <label for="formGroupGender">Gender</label>
+                            <select placeholder="Gender" type="text" id="gender" class="form-control cs-form-control">
+                                <option value="M">Male</option>
+                                <option selected="" value="F">Female</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <button type="submit" id="settingsProfileSaveButton" class="btn btn-info"><span>Save</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
